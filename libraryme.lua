@@ -3,7 +3,7 @@ local library = {
 		items = { }
 	}
     if _G.Color == nil then _G.Color = Color3.fromRGB(92, 0, 194) end
-    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(0, 151, 156) end
+    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(92, 0, 194) end
     -- Services
 	local players = game:GetService("Players")
 	local uis = game:GetService("UserInputService")
@@ -26,20 +26,20 @@ local library = {
         cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
         backgroundcolor = Color3.fromRGB(20, 20, 20),
         tabstextcolor = Color3.fromRGB(92, 0, 194),
-        bordercolor = Color3.fromRGB(92, 0, 194),
+        bordercolor = Color3.fromRGB(60, 60, 60),
         accentcolor = _G.Color,
         accentcolor2 = _G.Color2,
-        outlinecolor = Color3.fromRGB(92, 0, 194),
+        outlinecolor = Color3.fromRGB(60, 60, 60),
         outlinecolor2 = Color3.fromRGB(0, 0, 0),
-        sectorcolor = Color3.fromRGB(92, 0, 194),
+        sectorcolor = Color3.fromRGB(30, 30, 30),
         toptextcolor = _G.Color,
         topheight = 48,
-        topcolor = Color3.fromRGB(92, 0, 194),
+        topcolor = Color3.fromRGB(30, 30, 30),
         topcolor2 = Color3.fromRGB(15, 15, 15),
         buttoncolor = Color3.fromRGB(49, 49, 49),
-        buttoncolor2 = Color3.fromRGB(92, 0, 194),
-        itemscolor = Color3.fromRGB(92, 0, 194),
-        itemscolor2 = Color3.fromRGB(92, 0, 194)}
+        buttoncolor2 = Color3.fromRGB(39, 39, 39),
+        itemscolor = Color3.fromRGB(200, 200, 200),
+        itemscolor2 = Color3.fromRGB(210, 210, 210)}
 	if library.theme.cursor and Drawing then
 		local success = pcall(function()
 			library.cursor = Drawing.new("Image")

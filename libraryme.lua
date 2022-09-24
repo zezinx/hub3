@@ -2,8 +2,8 @@ local library = {
 		flags = { },
 		items = { }
 	}
-    if _G.Color == nil then _G.Color = Color3.fromRGB(48, 25, 52) end
-    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(48, 25, 52) end
+    if _G.Color == nil then _G.Color = Color3.fromRGB(92, 0, 194) end
+    if _G.Color2 == nil then _G.Color2 = Color3.fromRGB(92, 0, 194) end
     -- Services
 	local players = game:GetService("Players")
 	local uis = game:GetService("UserInputService")
@@ -24,22 +24,22 @@ local library = {
         tilesize = 50,
         cursor = false,
         cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
-        backgroundcolor = Color3.fromRGB(48, 25, 52),
-        tabstextcolor = Color3.fromRGB(48, 25, 52),
-        bordercolor = Color3.fromRGB(48, 25, 52),
+        backgroundcolor = Color3.fromRGB(92, 0, 194),
+        tabstextcolor = Color3.fromRGB(92, 0, 194),
+        bordercolor = Color3.fromRGB(92, 0, 194),
         accentcolor = _G.Color,
         accentcolor2 = _G.Color2,
-        outlinecolor = Color3.fromRGB(48, 25, 52),
+        outlinecolor = Color3.fromRGB(92, 0, 194),
         outlinecolor2 = Color3.fromRGB(0, 0, 0),
-        sectorcolor = Color3.fromRGB(48, 25, 52),
+        sectorcolor = Color3.fromRGB(92, 0, 194),
         toptextcolor = _G.Color,
         topheight = 48,
-        topcolor = Color3.fromRGB(48, 25, 52),
-        topcolor2 = Color3.fromRGB(48, 25, 52),
-        buttoncolor = Color3.fromRGB(48, 25, 52),
-        buttoncolor2 = Color3.fromRGB(48, 25, 52),
-        itemscolor = Color3.fromRGB(48, 25, 52),
-        itemscolor2 = Color3.fromRGB(48, 25, 52)}
+        topcolor = Color3.fromRGB(92, 0, 194),
+        topcolor2 = Color3.fromRGB(92, 0, 194),
+        buttoncolor = Color3.fromRGB(92, 0, 194),
+        buttoncolor2 = Color3.fromRGB(92, 0, 194),
+        itemscolor = Color3.fromRGB(92, 0, 194),
+        itemscolor2 = Color3.fromRGB(92, 0, 194)}
 	if library.theme.cursor and Drawing then
 		local success = pcall(function()
 			library.cursor = Drawing.new("Image")
